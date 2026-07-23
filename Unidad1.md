@@ -1,5 +1,5 @@
 
-# Sesión mnarte 21 de julio
+# UNIDAD 1
 
 ## Ensayo 1
 
@@ -34,6 +34,8 @@ n("<5 1>, 0 6 3 <[3,5] [4,8] [6,9]>")
 
 
 ## Ejercicio 1
+https://strudel.cc/#c2V0Y3BtKDY0KQpsZXQgaGFybW9ueSA9IG5vdGUoIjw1IDE%2BLCAwIDYgMyA8WzMsNV0gWzQsOF0gWzYsOV0%2BIikKLnNjYWxlKCI8QTI6bWlub3I6cGVudGF0b25pYyBGOm1ham9yOnBlbnRhdG9uaWMgRDpkb3JpYW4%2BLzYiKQouc291bmQoImdtX2Fjb3VzdGljX2Jhc3MiKQouZ2FpbigwLjcpCi5yb29tKDIpCiAgLnBpYW5vcm9sbCgpOwokOiBoYXJtb255CgpsZXQgbWVsb2R5ID0gbm90ZSgiMzYgNjcgNTUgPFs0NV0gWzQ4LCA1NV0%2BIikKICAuc291bmQoImdtX3ZvaWNlX29vaHMiKQogIC5nYWluKDAuNik7CiQ6IG1lbG9keQoKbGV0IHBlcmN1c2lvbiA9IHNvdW5kKCItIHNoQDUgLSBzaCwgWy0gbHRdKjIiKQogIC5iYW5rKCJSb2xhbmRUUjcwNyIpCiAgLmdhaW4oMC4yKTsKJDogcGVyY3VzaW9uCgpsZXQgZHJ1bTEgPSBzdGFjaygKIHNvdW5kKCJiZCoyLCBoaCoyIFtoaCBiZCBoaF0iKSwKIHNvdW5kKCJiZCBjcCozIGhoIG9oKjEiKQopLmJhbmsoIlJvbGFuZFRSNzA3IikKIC5nYWluKDAuMykKIC5zbG93KDMpOwokOmRydW0xCg%3D%3D
+
 ``` js
 setcpm(64)
 let harmony = note("<5 1>, 0 6 3 <[3,5] [4,8] [6,9]>")
