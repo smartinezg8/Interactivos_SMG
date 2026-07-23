@@ -33,4 +33,31 @@ n("<5 1>, 0 6 3 <[3,5] [4,8] [6,9]>")
 ```
 
 
-<img width="324" height="595" alt="image" src="https://github.com/user-attachments/assets/668952ab-4567-4b10-943a-5e3ecd3887f6" />
+## Ejercicio 1
+``` js
+setcpm(64)
+let harmony = note("<5 1>, 0 6 3 <[3,5] [4,8] [6,9]>")
+.scale("<A2:minor:pentatonic F:major:pentatonic D:dorian>/6")
+.sound("gm_acoustic_bass")
+.gain(0.7)
+.room(2);
+$: harmony
+
+let melody = note("36 67 55 <[45] [48, 55]>")
+  .sound("gm_voice_oohs")
+  .gain(0.6);
+$: melody
+
+let percusion = sound("- sh@5 - sh, [- lt]*2")
+  .bank("RolandTR707")
+  .gain(0.2);
+$: percusion
+
+let drum1 = stack(
+ sound("bd*2, hh*2 [hh bd hh]"),
+ sound("bd cp*3 hh oh*1")
+).bank("RolandTR707")
+ .gain(0.3)
+ .slow(3);
+$:drum1
+```
